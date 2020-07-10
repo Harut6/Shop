@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Online Shop</title>
+    <style type="text/css">
+   #button {
+    margin-top: 15px;
+   }
+   #logo{
+    margin-right: 600px;
+   }
+   #form{
+    margin-left: 400px;
+   }
+
+    </style>
+  </head>
+  <body style="background-color: rgb(239,236,245);">
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <div class="container-fluid">
+      <div class="raw d-flex">  
+          <div class="mr-5 float-right col-lg-2 d-none d-sm-none d-md-block">
+            +374 00 000 000
+          </div>
+          <div class="mr-5 float-right col-lg-2 d-none d-sm-none d-md-block">Welcome to our store </div>
+            <select class="custom-select mr-5 float-right col-lg-2" id="inputGroupSelect01">
+               <option value="1">EN</option>
+               <option value="2">AM</option>
+               <option value="3">RU</option>
+            </select>
+
+            <select class="custom-select mr-5 float-right  col-lg-2" id="inputGroupSelect01">
+               <option value="1">֏</option>
+               <option value="2">$</option>
+               <option value="3">₽</option>
+               <option value="4">€</option>
+            </select>
+  
+            <button type="button" class="p-2 bg-info text-white btn btn-outline-dark b25 float-right col-lg-2 d-none d-sm-none d-md-block">
+                Wishlist <span class="badge badge-light">0</span>
+           </button> 
+
+
+      </div>
+    </div>
+
+<div class="container-fluid">
+        <div class="raw d-flex row bg-light"> 
+    <nav class="navbar navbar-light bg-light">  
+  <div  class="col-6 col-sm-6 col-md-2">    
+  <a href="index.html" class="navbar-brand " id="logo"><img src="logo.png" width="80px" height="70px"></a>
+  </div>
+  <form class="form-inline">
+  <div class="d-none d-sm-none d-md-block">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
+   </div> 
+ <div class="input-group mb-3 ml-5 col-4 col-sm-6 col-md-2">
+             <button class="btn btn-outline-secondary dropdown-toggle" id="button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My account</button>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" type="button" data-toggle="modal" data-target="#staticBackdrop">Log in</a>
+            <a class="dropdown-item" type="button" data-toggle="modal" data-target="#staticBackdrop2">Register</a>
+            <a class="dropdown-item" href="myorders.html">My Orders</a>
+            <a class="dropdown-item" href="#">Account Settings</a>
+        </div> 
+            </form> 
+         </nav>             
+   </div>
+</div>
+  
+  <div class="">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <div class="container-fluid">
+      <div class="raw d-flex"> 
+     
+       <form class="form-inline">
+ <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         SAMSUNG
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         IPHONE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         HUAWEI
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div>
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         XIAOMI
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         NOKIA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         SONY
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div>
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         ALCATEL
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         HONOR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         MOTOROLA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+    <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         ONEPLUS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+    </div> 
+     <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         ACER
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+        </div> 
+        <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ASUS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="shop.html">New</a>
+          <a class="dropdown-item" href="shop.html">Top</a>
+          <a class="dropdown-item" href="shop.html">Old</a>
+   </div>
+  </div>
+  </form>
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+<center><h1>Welcome to check out.</h1></center>
+
+      <center>
+<div>
+ <img src="visa.jpg" width="250px" height="100px">
+ <img src="mastercard.jpg" width="250px" height="100px">
+ <img src="PayPal-Logo.jpg" width="250px" height="100px">
+</div>
+</center>
+
+
+<form>
+  <div class="form-row d-flex">
+    <div class="ml-5 col-md-4 mb-3">
+      <label for="validationDefault01">Card Number</label>
+      <input type="text" class="form-control" id="validationDefault01" value="111111111" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">Card Holder</label>
+      <input type="text" class="form-control" id="validationDefault02" value="CCCCAAABBB" required>
+    </div>
+    <div class="col-md-3 mt-1">
+<form action="/action_page.php">
+  <label for="birthday">Date</label><br>
+  <input type="date" name="date">
+</form>
+</div>
+  </div>
+
+<center>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+ <center><a href="shipping.html" class="btn btn-outline-primary mt-5 ">Shipping</a></center>
+</form>
+</center>
+
+
+
+
+
+
+
+<footer>
+<div class="container-fluid bg-dark mt-5">
+    <div class="row text-center text-light">
+      <div class="col-3">
+        <h4 class="text-light">CONTACT US</h5> 
+      </div>
+      <div class="col-3">
+        <h5 class="text-light">LIVE CHAT</h5> 
+      </div>
+       <div class="col-3">
+          <h4 class="ext-light">SHIPPING</h5>
+      </div>
+       <div class="col-3">
+          <h4 class="Twitter.png">TERM & CONditions</h5> 
+      </div>
+       
+    </div>
+
+    <div class="row text-center bg-dark">      
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold">LINK GROUP 1</li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold">LINK GROUP 2</li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold">LINK GROUP 3</li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold">LINK GROUP 4</li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+       <div class="col d-none d-md-block">
+        <ul class="list-group list-group-flush rounded-bottom">
+          <li class="list-group-item text-light bg-dark font-weight-bold">LINK GROUP 5</li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link1</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link2</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link3</a></li>
+          <li class="list-group-item text-light bg-dark"><a href="" class="text-decoration-none text-light">link4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row text-light">
+      <div class="col-12 text-center pt-3 pb-1">
+        <a href="#"> <img  class="" src="Facebook.png" width="27" height="27"></a>
+       <a href="#"><img  class="" src="Instagram.png" width="27" height="27"></a>
+        <a href="#"><img  class="" src="Youtube.png" width="30" height="27"></a>
+        <a href="#"><img class="" src="Twitter.png" width="30" height="30"></a>
+      </div>
+      <div class="col-12 text-center text-light pt-1 pb-3">
+        &copy; Harut Melkonyan
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#staticBackdrop2">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>  
+</html>

@@ -13,9 +13,6 @@
    #button {
     margin-top: 15px;
    }
-   #logo{
-    margin-right: 600px;
-   }
    #form{
     margin-left: 400px;
    }
@@ -32,7 +29,7 @@
 
 
     <div class="container-fluid">
-      <div class="raw d-flex">  
+      <div class="rօw d-flex">  
           <div class="mr-5 float-right col-lg-2 d-none d-sm-none d-md-block">
             +374 00 000 000
           </div>
@@ -51,42 +48,44 @@
             </select>
   
             <button type="button" class="p-2 bg-info text-white btn btn-outline-dark b25 float-right col-lg-2 d-none d-sm-none d-md-block">
-                Wishlist <span class="badge badge-light">0</span>
+                Wishlist <span class="badge badge-light">3</span>
            </button> 
-
-
+           
       </div>
     </div>
-
-<div class="container-fluid">
-        <div class="raw d-flex row bg-light"> 
-    <nav class="navbar navbar-light bg-light">  
-  <div  class="col-6 col-sm-6 col-md-2">    
-  <a href="index.html" class="navbar-brand " id="logo"><img src="logo.png" width="80px" height="70px"></a>
-  </div>
-  <form class="form-inline">
-  <div class="d-none d-sm-none d-md-block">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
-   </div> 
- <div class="input-group mb-3 ml-5 col-4 col-sm-6 col-md-2">
-             <button class="btn btn-outline-secondary dropdown-toggle" id="button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My account</button>
-            <div class="dropdown-menu">
+  
+ <div class="row b1  align-items-center p-1  text-light bg-light">
+      <div class="col-6 col-md-2 ">
+        <a href="index.html" class="link ml-4"><img src="logo.png" width="80px" height="70px"></a>
+      </div>
+      <div class="col-md-8  d-none d-md-block ">
+        <form class="form-inline float-right mr-3">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </div>
+      <div class="col-6 col-md-2">
+         <div class="dropdown float-right ">
+          <button class="btn btn-outline-secondary dropdown-toggle mb-3 mr-4" id="button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My account
+          </button>
+          <div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" type="button" data-toggle="modal" data-target="#staticBackdrop">Log in</a>
             <a class="dropdown-item" type="button" data-toggle="modal" data-target="#staticBackdrop2">Register</a>
             <a class="dropdown-item" href="myorders.html">My Orders</a>
-            <a class="dropdown-item" href="#">Account Settings</a>
-        </div> 
-            </form> 
-         </nav>             
-   </div>
-</div>
-  
+            <a class="dropdown-item" href="accountsettings.html">Account Settings</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   <div class="">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
       <div class="container-fluid">
-      <div class="raw d-flex"> 
+      <div class="row"> 
      
        <form class="form-inline">
  <a class="nav-link dropdown-toggle col-12 col-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -185,8 +184,11 @@
           <a class="dropdown-item" href="shop.html">Top</a>
           <a class="dropdown-item" href="shop.html">Old</a>
    </div>
+</form>
   </div>
-  </form>
+</div>
+</div>
+</div>
 
       </div>
     </div>
@@ -198,7 +200,7 @@
     </button>
   </nav>
 </div>
-
+   
 
 <table class="table mt-5">
   <thead>
@@ -261,16 +263,16 @@
 <footer>
 <div class="container-fluid bg-dark mt-5">
     <div class="row text-center text-light">
-      <div class="col-3">
+      <div class="col-4 col-sm-4 col-md-3">
         <h4 class="text-light">CONTACT US</h5> 
       </div>
-      <div class="col-3">
+      <div class="col-4 col-sm-4 col-md-3">
         <h5 class="text-light">LIVE CHAT</h5> 
       </div>
-       <div class="col-3">
+       <div class="col-4 col-sm-4 col-md-3">
           <h4 class="ext-light">SHIPPING</h5>
       </div>
-       <div class="col-3">
+       <div class="d-none d-md-block col-md-3">
           <h4 class="Twitter.png">TERM & CONditions</h5> 
       </div>
        
@@ -341,7 +343,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -366,7 +368,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#staticBackdrop2">Register</button>
       </div>
     </div>
   </div>
@@ -377,13 +378,24 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
        <form>
+
+       <div class="form-group">
+    <labe">First Name</label>
+    <input type="text" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" class="form-control">
+  </div> 
+
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -393,6 +405,17 @@
     <label for="exampleInputPassword1">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
+
+    <div class="form-group">
+    <label for="exampleInputPassword1">Repeat Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+    <div class="form-group">
+    <label>Address</label>
+    <input type="text" class="form-control"\>
+  </div>
+
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -402,7 +425,19 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
     </div>
   </div>
